@@ -4,8 +4,9 @@ import "./firebase/config.js";
 import Home from "./pages/Home";
 import Players from "./pages/Players";
 import Layout from "./layouts/Layout";
-import Memories from "./pages/Memories.Jsx";
 import Events from "./pages/Events.jsx";
+import Memories from "./pages/Memories.jsx";
+import NotFound from "./pages/NotFound.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/players" element={<Players />} />
           <Route path="/memories" element={<Memories />} />
           <Route path="/events" element={<Events />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>
