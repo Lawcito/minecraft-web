@@ -6,17 +6,19 @@ import Players from "./pages/Players";
 import Layout from "./layouts/Layout";
 import Events from "./pages/Events.jsx";
 import Memories from "./pages/Memories.jsx";
+import Mods from "./pages/Mods.jsx";
 import NotFound from "./pages/NotFound.jsx";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/minecraft-web">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="/players" element={<Players />} />
-          <Route path="/memories" element={<Memories />} />
-          <Route path="/events" element={<Events />} />
+          <Route path="players" element={<Players />} />
+          <Route path="memories" element={<Memories />} />
+          <Route path="events" element={<Events />} />
+          <Route path="mods" element={<Mods />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

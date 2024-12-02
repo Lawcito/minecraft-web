@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import fondoerror from "../assets/404.jpg";
+import fondoerror from "../assets/404.jpeg";
 
 function NotFound() {
   return (

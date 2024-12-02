@@ -74,7 +74,7 @@ function Events() {
                 <p className="text-blue-500">
                   Lugar: {selectedEvent?.lugar || "Lugar no disponible"}
                 </p>
-                <p>
+                <p className="text-neutral-100">
                   {selectedEvent?.description || "Descripción no disponible"}
                 </p>
               </div>

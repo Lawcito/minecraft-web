@@ -34,7 +34,7 @@ function Memories() {
           <img
             src={sapulogo}
             alt=""
-            className="absolute lg:h-40 lg:bottom-24 lg:left-8 lg:ml-0"
+            className="absolute lg:h-40 lg:bottom-24 lg:left-8 lg:ml-0 top-11"
           />
         </div>
         {/*Bandera Argentina*/}
@@ -42,9 +42,9 @@ function Memories() {
           <img
             src={arg}
             alt=""
-            className="absolute w-10 h-10 lg:h-20 lg:w-20 lg:bottom-10 lg:left-8 rounded-xl lg:top-72 top-40"
+            className="absolute w-10 h-10 lg:h-20 lg:w-20 lg:bottom-24 lg:left-8 rounded-xl lg:top-auto top-48"
           />
-          <p className="text-white text-xl font-mono underline absolute lg:bottom-16 lg:left-10 top-20 lg:top-auto">
+          <p className="text-white text-xl font-mono underline absolute lg:bottom-16 lg:left-10 lg:top-auto">
             2024|+20 Players|Rancio Army Inc.
           </p>
         </div>

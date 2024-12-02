@@ -30,7 +30,6 @@ function Home() {
       type: "Hacking",
       rule: "Queda totalmente prohibido el uso de hacks, como: X-Ray: Usar mods o paquetes de texturas para localizar minerales o cofres ocultos. Kill Aura/Auto Aim: Utilizar hacks que automaticen ataques o aumenten el alcance de combate. Fly Hack: Habilidades para volar en modos no permitidos. Speed Hack: Incrementar la velocidad de movimiento de forma antinatural. Auto Clickers: Automatizar acciones como minería, combate o construcción.",
     },
-    
   ];
   return (
     <div>
@@ -125,7 +124,7 @@ function Home() {
             </p>
           </div>
         </div>
-        <div className="flex h-1/2 ">
+        <div className="flex h-1/2  ">
           <div className="place-content-center">
             <div className="flex justify-evenly flex-col lg:flex-row">
               {/* Mapeo de las reglas, sus fotos y descripciones */}
@@ -133,17 +132,17 @@ function Home() {
                 return (
                   <div
                     key={index}
-                    className="relative group lg:w-1/4 mr-5 ml-5 lg:mr-0 lg:ml-0"
+                    className="relative group lg:w-1/4 mr-5 ml-5 lg:mr-0 lg:ml-0 cursor-pointer"
                   >
                     <img
                       src={image}
                       alt={type}
-                      className="rounded-md lg:w-full lg:h-full object-cover"
+                      className="rounded-md lg:w-full lg:h-full object-cover "
                     />
-                    <p className="absolute inset-0 flex items-center lg:items-end justify-center text-white lg:text-xl font-bold text-2xl">
+                    <p className="absolute inset-0 flex items-center lg:items-end justify-center text-white lg:text-xl font-bold text-2xl ">
                       {type}
                     </p>
-                    <div className="rounded-md lg:absolute lg:inset-0 lg:flex items-center justify-center h-full bg-gradient-to-r from-[#011526A1] to-[#044D8CA1] text-white text-lg font-bold transition-opacity duration-300 opacity-0 group-hover:opacity-100 font-height lg:p-5 mb-5 lg:mb-0">
+                    <div className=" rounded-md lg:absolute lg:inset-0 lg:flex items-center justify-center h-full bg-gradient-to-r from-[#011526A1] to-[#044D8CA1] text-white text-lg font-bold transition-opacity duration-300 opacity-0 group-hover:opacity-100 font-height lg:p-5 mb-5 lg:mb-0">
                       <p className="bg-black bg-opacity-70 lg:bg-inherit">
                         {rule}
                       </p>

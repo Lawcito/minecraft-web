@@ -35,16 +35,20 @@ function OnlinePlayers() {
         <div>
           {hoverStatus ? (
             <div className="absolute lg:top-0 top-5 right-5 lg:left-80 bg-neutral-900 border border-gray-300 rounded p-2 w-1/2">
-              {status.length > 0 ? (
-                status.map((player, index) => {
-                  return (
-                    <p key={index} className="">
-                      {player.name}
-                    </p>
-                  );
-                })
+              {status ? (
+                status.length > 0 ? (
+                  status.map((player, index) => {
+                    return (
+                      <p key={index} className="">
+                        {player.name}
+                      </p>
+                    );
+                  })
+                ) : (
+                  <p>No hay nadie</p>
+                )
               ) : (
-                <p>No hay nadie</p>
+                false
               )}
             </div>
           ) : (

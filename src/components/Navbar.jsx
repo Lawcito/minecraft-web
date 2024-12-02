@@ -22,6 +22,10 @@ function Navbar() {
       to: "/events",
       name: "Events",
     },
+    {
+      to: "/mods",
+      name: "Mods",
+    },
   ];
   return (
     <nav className="h-16 text-[#E0D2C3] flex items-center">
