@@ -86,7 +86,7 @@ function Players() {
               })
             ) : (
               <p className="flex justify-center w-full ">
-                <Loading />
+                <Loading w={10}/>
               </p>
             )}
           </Swiper>

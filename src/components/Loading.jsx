@@ -1,9 +1,9 @@
 import loadingImg from "../assets/loading.gif";
 
-function Loading() {
+function Loading({ w }) {
   return (
     <div>
-      <img src={loadingImg} alt="" className="h-10 w-10" />
+      <img src={loadingImg} alt="" className={`w-${w}`} />
     </div>
   );
 }
