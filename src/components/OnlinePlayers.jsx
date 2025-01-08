@@ -24,7 +24,7 @@ function OnlinePlayers() {
     <div className="flex justify-center items-center relative gap-2 text-white">
       <div className="flex gap-2">
         <p>Jugadores en linea</p>
-        <p>{status ? status.length : <Loading w={10} />}/22</p>
+        <p className="flex items-center">{status ? status.length : <Loading />}/22</p>
       </div>
       <div
         className="cursor-pointer flex gap-2 items-center"

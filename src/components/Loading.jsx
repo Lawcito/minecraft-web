@@ -1,9 +1,9 @@
 import loadingImg from "../assets/loading.gif";
 
-function Loading({ w }) {
+function Loading() {
   return (
-    <div>
-      <img src={loadingImg} alt="" className={`w-${w}`} />
+    <div className="items-center flex justify-center">
+      <img src={loadingImg} alt="" className="w-5 h-5" />
     </div>
   );
 }

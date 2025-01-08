@@ -1,4 +1,4 @@
-import HeroImg from "../assets/HeroImg.jpeg";
+import HeroImg from "../assets/HeroImg.gif";
 import Footer from "../components/Footer";
 import convi from "../assets/convi.jpg";
 import logo from "../assets/icono2.png";

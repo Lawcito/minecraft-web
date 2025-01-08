@@ -105,7 +105,7 @@ function Memories() {
                         large={memorie.image}
                         hideDownload={false}
                         hideZoom={false}
-                        className="lg:w-full object-cover cursor-pointer  lg:rounded-2xl rounded-md shadow-2xl drop-shadow-md shadow-red-700 "
+                        className="lg:w-full object-cover cursor-pointer  lg:rounded-2xl rounded-md shadow-2xl drop-shadow-md shadow-red-700 transition-transform transform hover:scale-105 duration-200"
                       />
                     ) : (
                       <p>La imagen no ha cargado correctamente</p>
